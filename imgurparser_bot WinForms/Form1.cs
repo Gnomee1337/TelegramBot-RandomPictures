@@ -51,7 +51,7 @@ namespace imgurparser_bot_WinForms
                         var message = update.Message;
                         if (message.Type == Telegram.Bot.Types.Enums.MessageType.Text)
                         {
-                            if (message.Text == "/getimage" || message.Text == "/getimage@rndpicture_bot")
+                            if (message.Text == "/getimage" || message.Text == "/getimage@...") //После @ - пишем ссылку на вашего бота!!! Это нужно для исп бота в конфах!!!
                             {
                                 ImgurPars imgurPars = new ImgurPars();
                                 // в ответ на команду /getimage выводим картинку
