@@ -1,12 +1,10 @@
 # TelegramBot-RandomPictures
-Local TelegBot with command `"/getimage"` - send rnd picture. 
+Telegram Bot with command `"/getimage"` to send random picture. 
 ***
 
-**Same app(ImgureParser)** but included into Telegram. It's `local bot`, because algorithm `create rnd picture`(**On ur HDD**), 
-then `send to user` and `finally delete them`.
-The `algorithm requires improvement of multithreading` and `optimization`.
+**Based on ImgureParser** but adapted for Telegram. Algorithm downloads random picture from Imgure, then send it to user and finally delete picture.
 ***
 **How to use:**
-1. Create TelegBot. Add command `"/getimage"`;
-2. Run App. Ur `Api-Key`(from BotFather) input into TextBox;
-3. Write `"/getimage"` to bot.
+1. Create Telegram Bot. Add command `"/getimage"`;
+2. Launch this App. Input your `Api-Key`(from BotFather) into TextBox;
+3. Request image in bot by typing `"/getimage"`.
